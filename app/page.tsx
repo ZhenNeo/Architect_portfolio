@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Navbar from "./components/navbar";
-
+import Home_page from "./components/home";
 
 export default function Home() {
   return (
@@ -9,6 +9,8 @@ export default function Home() {
         <Navbar />
       </div>
       <div className="col-span-4">
+        <Home_page />
+        
         
       </div>
     </main>
